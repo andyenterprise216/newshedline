@@ -1,0 +1,41 @@
+{
+  "_comment": "見出しを取得する新聞の設定ファイルです。enabled を false にするとその新聞をスキップします。フィードの追加も自由です。",
+  "max_items_per_feed": 8,
+  "timeout_seconds": 20,
+  "sections": [
+    {
+      "name": "日本",
+      "feeds": [
+        { "name": "NHKニュース（主要）", "url": "https://www.nhk.or.jp/rss/news/cat0.xml", "enabled": true },
+        { "name": "朝日新聞", "url": "https://rss.asahi.com/rss/asahi/newsheadlines.rdf", "enabled": true },
+        { "name": "毎日新聞（速報）", "url": "https://mainichi.jp/rss/etc/mainichi-flash.rss", "enabled": true },
+        { "name": "読売新聞", "url": "https://assets.wor.jp/rss/rdf/yomiuri/latestnews.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true },
+        { "name": "日本経済新聞", "url": "https://assets.wor.jp/rss/rdf/nikkei/news.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true },
+        { "name": "産経新聞", "url": "https://assets.wor.jp/rss/rdf/sankei/newsflash.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true }
+      ]
+    },
+    {
+      "name": "アメリカ",
+      "feeds": [
+        { "name": "The New York Times", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "enabled": true },
+        { "name": "The Washington Post（World）", "url": "https://feeds.washingtonpost.com/rss/world", "enabled": true },
+        { "name": "The Wall Street Journal（World）", "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml", "enabled": true }
+      ]
+    },
+    {
+      "name": "中国",
+      "feeds": [
+        { "name": "China Daily（中国国内）", "url": "https://www.chinadaily.com.cn/rss/china_rss.xml", "enabled": true },
+        { "name": "人民網 日本語版", "url": "http://j.people.com.cn/rss/index.xml", "enabled": true },
+        { "name": "South China Morning Post（香港・China）", "url": "https://www.scmp.com/rss/4/feed", "enabled": true }
+      ]
+    },
+    {
+      "name": "世界",
+      "feeds": [
+        { "name": "BBC News（World）", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "enabled": true },
+        { "name": "Al Jazeera（English）", "url": "https://www.aljazeera.com/xml/rss/all.xml", "enabled": true }
+      ]
+    }
+  ]
+}
