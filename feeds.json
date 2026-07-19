@@ -8,10 +8,10 @@
       "feeds": [
         { "name": "NHKニュース（主要）", "url": "https://www.nhk.or.jp/rss/news/cat0.xml", "enabled": true },
         { "name": "朝日新聞", "url": "https://rss.asahi.com/rss/asahi/newsheadlines.rdf", "enabled": true },
-        { "name": "毎日新聞（速報）", "url": "https://mainichi.jp/rss/etc/mainichi-flash.rss", "enabled": true },
+        { "name": "毎日新聞", "url": "https://news.google.com/rss/search?q=site:mainichi.jp+when:2d&hl=ja&gl=JP&ceid=JP:ja", "note": "Google News経由", "enabled": true },
         { "name": "読売新聞", "url": "https://assets.wor.jp/rss/rdf/yomiuri/latestnews.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true },
         { "name": "日本経済新聞", "url": "https://assets.wor.jp/rss/rdf/nikkei/news.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true },
-        { "name": "産経新聞", "url": "https://assets.wor.jp/rss/rdf/sankei/newsflash.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true }
+        { "name": "産経新聞（速報）", "url": "https://assets.wor.jp/rss/rdf/sankei/flash.rdf", "note": "非公式ミラー(rss.wor.jp)", "enabled": true }
       ]
     },
     {
@@ -26,7 +26,7 @@
       "name": "中国",
       "feeds": [
         { "name": "China Daily（中国国内）", "url": "https://www.chinadaily.com.cn/rss/china_rss.xml", "enabled": true },
-        { "name": "人民網 日本語版", "url": "http://j.people.com.cn/rss/index.xml", "enabled": true },
+        { "name": "人民網 日本語版", "url": "https://news.google.com/rss/search?q=site:j.people.com.cn+when:7d&hl=ja&gl=JP&ceid=JP:ja", "note": "Google News経由", "enabled": true },
         { "name": "South China Morning Post（香港・China）", "url": "https://www.scmp.com/rss/4/feed", "enabled": true }
       ]
     },
