@@ -3,7 +3,7 @@ name: 毎朝の見出し更新
 on:
   schedule:
     # UTC 22:00 = 日本時間 翌朝 7:00 (GitHubの仕様で数分〜30分ほど遅れることがあります)
-    - cron: "0 22 * * *"
+    - cron: "47 21 * * *"
   workflow_dispatch: {}   # Actionsタブから手動実行もできます
 
 permissions:
